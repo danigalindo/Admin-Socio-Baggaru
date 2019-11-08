@@ -17,8 +17,10 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
- <!-- aqui empieza el menu e inputs -->
+  <!-- aqui empieza el menu e inputs -->
   <body>
+    <div>
+      <header>
     <nav class="navbar navbar-expand-lg navbar-light navigation">
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
@@ -50,51 +52,64 @@
         </ul>
       </div>
     </nav>
+  </header>
 
-    <aside>
-      <ul class="ulmenu">
-        <div class="shadow-menu">
-        <li class="ilmenu">
-          <img src="images/cuenta.svg" alt="" class="iconmenuadmin"/>
-          <a class= "a-menu" href="cta-socio-admin.html"  >Mi cuenta </a>
+    <!-- aqui acaba la nav -->
+    <div>
+        <div class="row">
+          <div class="col-sm-2">
+                  <ul class="ulmenu">
+                    <div class="shadow-menu">
+                    <li class="ilmenu">
+                      <img src="images/cuenta.svg" alt="" class="iconmenuadmin"/>
+                      <a class= "a-menu" href="#"  >Mi cuenta </a>
+                    </div>
+                    </li>
+                    <div class="shadow-menu">
+                    <li class="ilmenu">
+                      <img src="images/reservas.svg" alt="" class="iconmenuadmin" />
+                      <a class= "a-menu" href="#">Reservas</a>
+                    </div>
+                    </li>
+                    <div class="shadow-menu">
+                    <li class="ilmenu">
+                      <img src="images/Ganancias.svg" alt="" class="iconmenuadmin" />
+                      <a class= "a-menu" href="#">Ganancias</text>
+                    </div>
+                    </li>
+                    <div class="shadow-menu">
+                    <li class="ilmenu">
+                      <img src="images/Espacios.svg" alt="" class="iconmenuadmin" />
+                      <a class= "a-menu" href="#">Espacios</a>
+                    </li>
+                    </div>
+                    <div class="shadow-menu">
+                      <li class="ilmenu">
+                        <img src="images/Tarjeta.svg" alt="" class="iconmenuadmin" />
+                        <a class= "a-menu" href="#">Datos de pago</text>
+                      </li>
+                    </div>
+                    <div class="shadow-menu">
+                      <li class="ilmenu">
+                        <img src="images/Factura.svg" alt="" class="iconmenuadmin" />
+                        <a class= "a-menu" href="#">Datos de facturas</text>
+                      </li>
+                    </div>
+                  </ul>
+          </div>
+
+          <div class="col-sm-10">
+              <div class="divFormAdmin">
+                  <label>Nombre y apellido</label>
+                  <input type="text" class="inputAdmin" />
+                  <label>Celular</label>
+                  <input type="text" class="inputAdmin" />
+                  <label>Correo</label>
+                  <input type="text" class="inputAdmin" />
+                </div>
+                </div>
+          </div>
         </div>
-        </li>
-        <div class="shadow-menu">
-        <li class="ilmenu">
-          <img src="images/reservas.svg" alt="" class="iconmenuadmin" />
-          <a class= "a-menu" href="rerservas-socio.html">Reservas</a>
-        </div>
-        </li>
-        <div class="shadow-menu">
-        <li class="ilmenu">
-          <img src="images/Ganancias.svg" alt="" class="iconmenuadmin" />
-          <a class= "a-menu" href="cta-socio-admin.html">Ganancias</text>
-        </div>
-        </li>
-        <div class="shadow-menu">
-        <li class="ilmenu">
-          <img src="images/Espacios.svg" alt="" class="iconmenuadmin" />
-          <a class= "a-menu" href="cta-socio-admin.html">Espacios</a>
-        </li>
-        </div>
-        <div class="shadow-menu">
-          <li class="ilmenu">
-            <img src="images/Tarjeta.svg" alt="" class="iconmenuadmin" />
-            <a class= "a-menu" href="cta-socio-admin.html">Datos de pago</text>
-          </li>
-        </div>
-        <div class="shadow-menu">
-          <li class="ilmenu">
-            <img src="images/Factura.svg" alt="" class="iconmenuadmin" />
-            <a class= "a-menu" href="cta-socio-admin.html">Datos de facturas</text>
-          </li>
-        </div>
-      </ul>
-    </aside>
-    <div class="divFormAdmin">
-      <input type="text" />
-      <input type="text" />
-      <input type="text" />
-    </div>
+      </div>
   </body>
 </html>
