@@ -1,0 +1,200 @@
+*{
+   
+    font-family: 'Montserrat', sans-serif;
+    margin 10px;
+    box-sizing: border-box;
+}
+
+/* Estilos barra de navegación*/
+.navigation {
+        background-color: #001730;
+       }
+.logo{
+    margin-left: 30px;
+}
+.drop-down-nav{
+
+
+}
+
+/* Opción menu navegación superior*/
+.opcion-menu {
+       
+        display: flex;
+        justify-content: space-between;
+        font-weight: bold;
+        line-height: 19px;
+        font-size: 16px;
+        color: rgb(242, 245, 248) !important;
+        
+  }
+/*menu lateral*/
+
+aside{
+
+    width: 350px;
+    float: left;
+    background: pink;
+    position: fixed;
+    
+}
+/*lista no ordenada del menu*/
+.ulmenu{
+    /* formato de la lista */
+    padding: 5px;
+    margin: 15px;
+    list-style: none
+
+
+}
+
+/*foramto items de la lista menu */
+.ilmenu{
+
+    margin: 0px;
+    margin-left: 20px;
+    margin-top: 40px;
+    padding: 5px;
+    font-weight: 400;
+    color: #00203F;
+    list-style: none;
+
+
+}
+
+/* cuadro azul en el fondo del menu*/
+.shadow-menu {
+    margin: 0px;
+    width: 228px;
+    
+
+}
+
+/* iconos del menu lateral de admin */
+.iconmenuadmin{
+
+
+    margin-right: 10px;
+    width: 27px;
+    height: 27px;
+    
+}
+
+.a-menu {
+
+    color: #00203F;
+}
+.a-menu:hover{
+    text-decoration: none;
+    color: #00203F;
+}
+
+/* formato de la opción de menú que está seleccionada */
+.a-selected {
+  
+    font-weight: 700;
+    cursor: pointer;
+    background-color: #f1f4f8;
+    height: 50px;
+    border-radius: 2px;
+    margin-bottom: 40px;
+    color: #00203F;
+    text-decoration: none;
+}
+.a-selected:hover {
+  
+    font-weight: 700;
+    cursor: pointer;
+    background-color: #f1f4f8;
+    height: 50px;
+    border-radius: 2px;
+    margin-bottom: 40px;
+    color: #00203F;
+    text-decoration: none;
+
+}
+.ilmenu:hover{
+
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.shadow-menu:hover {
+
+
+    background-color: #f1f4f8;
+    width: 228px;
+    height: 50px;
+    border-radius: 2px;
+    margin-bottom: 40px;
+
+}
+
+/* estado en reposo de la opción que seleccionó el usuario */
+.shadow-menu-selected {
+
+
+    background-color: #f1f4f8;
+    width: 228px;
+    height: 50px;
+    border-radius: 2px;
+    margin-bottom: 40px;
+
+}
+
+
+/* ejercicio */
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #001730;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,2,5,0);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: #00203F;
+    padding: 20px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+
+  
+  .input-admin {
+
+    
+    
+  }
+
+  /* contenedor del formulario, tiene los inputs adentro */
+  .divFormAdmin {
+
+    float: left;
+    width: 1500px;
+    height: 850px;
+    background: green;
+
+
+  }
